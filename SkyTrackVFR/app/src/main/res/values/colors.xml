@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eeeeee</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#3a70aa</color>
+
+    <color name="colorNavDisplayBackground">#ffffe0</color>
+    <color name="colorFloatingButtonBackgroundActive">#ffd57f</color>
+    <color name="colorNavDisplayLabelBackground">#c8ffffff</color>
+</resources>

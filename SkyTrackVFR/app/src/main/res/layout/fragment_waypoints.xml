@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/buttonAddWaypoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/add_new"
+        android:textAllCaps="false" />
+
+    <View
+        android:id="@+id/viewWaypointsButtonSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/buttonAddWaypoint"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent" />
+
+    <ListView
+        android:id="@+id/listViewWaypoints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewWaypointsButtonSeparator" />
+
+    <TextView
+        android:id="@+id/emptyListWaypoints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewWaypointsButtonSeparator"
+        android:gravity="center"
+        android:text="@string/empty_list_waypoints" />
+
+</RelativeLayout>

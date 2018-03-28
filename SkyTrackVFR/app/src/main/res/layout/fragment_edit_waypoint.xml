@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewEditWaypoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/edit_waypoint"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editTextWaypointName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEditWaypoint"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textNoSuggestions"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editTextWaypointLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextWaypointName"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/latitude_degrees"
+        android:inputType="numberSigned|numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editTextWaypointLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextWaypointLatitude"
+        android:ems="10"
+        android:hint="@string/longitude_degrees"
+        android:inputType="numberSigned|numberDecimal"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/buttonDeleteWaypoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSaveWaypoint"
+        android:text="@string/delete"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonSaveWaypoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

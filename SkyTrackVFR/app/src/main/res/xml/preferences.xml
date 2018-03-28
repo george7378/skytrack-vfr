@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_cat_nav_display"
+        android:title="@string/nav_display">
+
+        <ListPreference
+            android:id="@+id/prefLocationUpdateRate"
+            android:defaultValue="5"
+            android:entries="@array/prefLocationUpdateRateEntries"
+            android:entryValues="@array/prefLocationUpdateRateEntries"
+            android:key="pref_location_update_rate"
+            android:summary="@string/location_update_rate_description"
+            android:title="@string/location_update_rate" />
+
+        <ListPreference
+            android:id="@+id/prefCurveResolution"
+            android:defaultValue="10"
+            android:entries="@array/prefCurveResolutionEntries"
+            android:entryValues="@array/prefCurveResolutionEntries"
+            android:key="pref_curve_resolution"
+            android:summary="@string/curve_resolution_description"
+            android:title="@string/curve_resolution" />
+
+        <ListPreference
+            android:id="@+id/prefSymbolScale"
+            android:defaultValue="0.75"
+            android:entries="@array/prefSymbolScaleEntries"
+            android:entryValues="@array/prefSymbolScaleValues"
+            android:key="pref_symbol_scale"
+            android:summary="@string/symbol_scale_description"
+            android:title="@string/symbol_scale" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_cat_general"
+        android:title="@string/general">
+
+        <ListPreference
+            android:id="@+id/prefOrientationLock"
+            android:defaultValue="@string/portrait"
+            android:entries="@array/prefOrientationLockEntries"
+            android:entryValues="@array/prefOrientationLockValues"
+            android:key="pref_orientation_lock"
+            android:summary="@string/orientation_lock_description"
+            android:title="@string/orientation_lock" />
+
+        <CheckBoxPreference
+            android:id="@+id/prefPreventSleep"
+            android:defaultValue="true"
+            android:key="pref_prevent_sleep"
+            android:summary="@string/prevent_sleep_description"
+            android:title="@string/prevent_sleep" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

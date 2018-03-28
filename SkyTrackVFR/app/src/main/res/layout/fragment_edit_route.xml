@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewEditRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/edit_route"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editTextRouteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEditRoute"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textNoSuggestions"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textViewRouteWaypoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRouteName"
+        android:layout_marginBottom="10dp"
+        android:text="@string/waypoints" />
+
+    <LinearLayout
+        android:id="@+id/layoutRouteWaypointButtonsHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRouteWaypoints"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonAddRouteWaypoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_add" />
+
+        <ImageButton
+            android:id="@+id/buttonDeleteRouteWaypoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_remove" />
+
+        <ImageButton
+            android:id="@+id/buttonUpRouteWaypoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_up_arrow" />
+
+        <ImageButton
+            android:id="@+id/buttonDownRouteWaypoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_down_arrow" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewRouteWaypoints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonActivateRoute"
+        android:layout_below="@+id/layoutRouteWaypointButtonsHolder"
+        android:layout_marginBottom="10dp"
+        android:choiceMode="singleChoice" />
+
+    <TextView
+        android:id="@+id/emptyListRouteWaypoints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonActivateRoute"
+        android:layout_below="@+id/layoutRouteWaypointButtonsHolder"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/empty_list_waypoints" />
+
+    <Button
+        android:id="@+id/buttonActivateRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonDeleteRoute"
+        android:text="@string/activate"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonDeleteRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSaveRoute"
+        android:text="@string/delete"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonSaveRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

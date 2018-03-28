@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SkyTrack VFR</string>
+    <string name="general">General</string>
+    <string name="error">Error</string>
+    <string name="empty_editor">No item has been selected.\nChoose one from the list or add a new one.</string>
+    <string name="add_new">Add New</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="activate">Activate</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="permission_warning">Permission requests need to be accepted to use this app.\nPlease re-start and try again.</string>
+    <string name="gps_permission_problem">Permission problem requesting GPS location updates.\nPlease re-start the app and try again.</string>
+
+    <string name="nav_display">Nav Display</string>
+    <string name="waypoints">Waypoints</string>
+    <string name="routes">Routes</string>
+    <string name="settings">Settings</string>
+
+    <string name="location_update_rate">Location Update Rate</string>
+    <string name="location_update_rate_description">How often your location updates - more frequent updates will use more battery. App must be restarted for setting to take effect.</string>
+    <string name="curve_resolution">Curve Resolution</string>
+    <string name="curve_resolution_description">Resolution of great circle curves on the Nav Display. See \'About\' for more details.</string>
+    <string name="symbol_scale">Symbol Scale</string>
+    <string name="symbol_scale_description">Size of symbols shown on the Nav Display.</string>
+    <string name="orientation_lock">Orientation Lock</string>
+    <string name="orientation_lock_description">The orientation, if any, that the app should be locked to as your device rotates.</string>
+    <string name="prevent_sleep">Prevent Sleep</string>
+    <string name="prevent_sleep_description">Should the app prevent your device from going to sleep?</string>
+    <string name="about">About</string>
+    <string name="about_description">General information and help for SkyTrack VFR.</string>
+
+    <string name="none">None</string>
+    <string name="portrait">Portrait</string>
+    <string name="landscape">Landscape</string>
+    <string name="reverse_portrait">Reverse Portrait</string>
+    <string name="reverse_landscape">Reverse Landscape</string>
+
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+
+    <string name="empty_list_waypoints">No waypoints present</string>
+    <string name="edit_waypoint">Edit Waypoint</string>
+    <string name="latitude_degrees">Latitude (degrees)</string>
+    <string name="longitude_degrees">Longitude (degrees)</string>
+
+    <string name="clear_active">Clear Active</string>
+    <string name="empty_list_routes">No routes present</string>
+    <string name="edit_route">Edit Route</string>
+</resources>

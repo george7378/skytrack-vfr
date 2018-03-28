@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefLocationUpdateRateEntries">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="prefCurveResolutionEntries">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="prefOrientationLockEntries">
+        <item>@string/none</item>
+        <item>@string/portrait</item>
+        <item>@string/landscape</item>
+        <item>@string/reverse_portrait</item>
+        <item>@string/reverse_landscape</item>
+    </string-array>
+    <string-array name="prefOrientationLockValues">
+        <item>None</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+        <item>ReversePortrait</item>
+        <item>ReverseLandscape</item>
+    </string-array>
+
+    <string-array name="prefSymbolScaleEntries">
+        <item>@string/small</item>
+        <item>@string/medium</item>
+        <item>@string/large</item>
+    </string-array>
+    <string-array name="prefSymbolScaleValues">
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1</item>
+    </string-array>
+</resources>
