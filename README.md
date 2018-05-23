@@ -1,4 +1,4 @@
-# skytrackvfr
+# skytrack-vfr
 SkyTrack VFR is a simple android app which allows you to construct point-to-point routes with custom waypoints. It displays the active route on a simple latitude-longitude map along with your current GPS-derived position and direction of travel.
 
 The app was intended to accompany pilots using official VFR charts by providing the one extra piece of information your chart can't tell you - your actual position. The map display doesn't include any airspace or terrain information, but this shouldn't be needed as long as you have planned/drawn your route on an up-to-date map.
