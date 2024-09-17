@@ -5,8 +5,6 @@ The app was designed to accompany pilots using official VFR charts by providing 
 
 I've never distributed SkyTrack VFR on any app stores since there are many feature-rich flight navigation apps already out there, and this was always just a limited use hobby project I created during my time as a student pilot.
 
-<img src="https://raw.githubusercontent.com/george7378/skytrackvfr/master/_img/1.png" width="250">
-
-<img src="https://raw.githubusercontent.com/george7378/skytrackvfr/master/_img/2.png" width="250">
-
-<img src="https://raw.githubusercontent.com/george7378/skytrackvfr/master/_img/3.png" width="250">
+<img src="https://raw.githubusercontent.com/george7378/skytrackvfr/master/misc/readme/1.png" width="250">
+<img src="https://raw.githubusercontent.com/george7378/skytrackvfr/master/misc/readme/2.png" width="250">
+<img src="https://raw.githubusercontent.com/george7378/skytrackvfr/master/misc/readme/3.png" width="250">
